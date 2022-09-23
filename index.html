@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">LA SALITA DEL BARRIO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">SERVICIOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">ACTIVIDADES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="carrusel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/fuerte-apache.jpg" class="d-block w-100" alt="barrio fuerte apache" height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/salita.jpg" class="d-block w-100" alt="salita fuerte apache" height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/fuerte-apache2.jpg" class="d-block w-100" alt="barrio fuerte apache" height="400px">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+        <div class="d-flex justify-content-around pizarra">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./assets/servicios.jpg" class="card-img-top" alt="..." height="300px">
+                    <div class="card-body">
+                      <h5 class="card-title">SERVICIOS</h5>
+                      <a href="#" class="btn btn-primary">Ir a servicios</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./assets/novedades.png" class="card-img-top" alt="..." height="300px">
+                    <div class="card-body">
+                      <h5 class="card-title">NOVEDADES</h5>
+                      <a href="#" class="btn btn-primary">Ir a novedades</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./assets/turnos.png" class="card-img-top" alt="..." height="300px">
+                    <div class="card-body">
+                      <h5 class="card-title">TURNOS</h5>
+                      <a href="#" class="btn btn-primary">Ir a turnos</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>

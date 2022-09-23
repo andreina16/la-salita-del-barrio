@@ -1,0 +1,11 @@
+.carrusel {
+    padding: 0;
+    border: 0;
+}
+.carrusel>img{
+    height: 200px;
+}
+
+.pizarra {
+    padding-top: 20px;
+}
